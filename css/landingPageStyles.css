@@ -1,0 +1,58 @@
+/* navigation bar */
+
+.navbar{
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.navbar-brand{
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.form-control{
+  background-color: black;
+}
+
+
+/* carousel */
+
+
+.image1{
+  width: 90%;
+}
+.carousel-inner{
+  text-align: center;
+}
+.carousel{
+  padding-top: 3%;
+}
+.carousel-title{
+  text-align: left;
+  padding: 6% 3% 0 3%;
+}
+.puppet{
+  margin: 10px;
+  width: 117px;
+  height: 117px;
+}
+.whos-watching{
+  align-items: center;
+  display: flex;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+}
+.buttons-bottom{
+  width: 10%;
+}
+
+.horizonntal{
+  height: 50px;
+}
+body{
+  background-color: black;
+}
+table{
+  width: 96%;
+  margin-left: 2%;
+  margin-right: 2%;
+}

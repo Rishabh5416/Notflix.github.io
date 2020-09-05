@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Notflix</title>
+    <!-- <link rel="stylesheet" href="css/styles.css"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/landingPageStyles.css">
+    <link rel="icon" href="icon.jpg">
+  </head>
+  <body>
+
+    <!-- navigation bar -->
+
+    <nav class="navbar navbar-expand-md navbar-dark">
+      <a class="navbar-brand" href="#">
+        <img src="https://pmcvariety.files.wordpress.com/2020/05/netflix-logo.png?w=1024" width="140" height="75">
+      </a>
+      <ul class="navbar-nav ml-auto">
+        <li class="navbar-item">
+          <a class="nav-link" href="#movies">Movies</a>
+        </li>
+        <li class="navbar-item">
+          <a class="nav-link" href="#shows">Shows</a>
+        </li>
+        <li class="navbar-item">
+          <a class="nav-link" href="#originals">Originals</a>
+        </li>
+        <li>
+          <form class="form-inline">
+            <input class="form-control mr-sm-3 ml-sm-5" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </li>
+      </ul>
+    </nav>
+
+
+
+
+    <!-- carousel top -->
+
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" data-interval="2000">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <a href="movie.html"><img class="image1" src="moneyHiest.jpg" class="d-block w-100" alt="..."></a>
+          <div class="carousel-caption d-none d-md-block">
+            <h2>Money Heist</h2>
+            <h5>Eight thieves take hostages and lock themselves in the royal mint</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+            <a href="movie.html"><img class="image1" src="spaceForce.jpg" class="d-block w-100" alt="..."></a>
+          <div class="carousel-caption d-none d-md-block">
+            <h2>Space Force</h2>
+            <h5>A four star general Begrudgingly teams up with an eccentric scientist to establish a new agency</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+            <a href="movie.html"><img class="image1" src="daredevil.jpg" class="d-block w-100" alt="..."></a>
+          <div class="carousel-caption d-none d-md-block">
+            <h2>Daredevil</h2>
+            <h5>Matt murdock, a young boy, fights crime in the day as a Lawyer and in the night as a Hero</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <a href="movie.html"><img class="image1" src="orangeIsTheNewBlack.jpg" class="d-block w-100" alt="..."></a>
+          <div class="carousel-caption d-none d-md-block">
+            <h2>Orange Is The New Black</h2>
+            <h5>When past crimes catches up with her, a privilaged New Yorker ends up in a womens prison</h5>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+
+
+    <!-- movies carousel -->
+
+
+    <h4 class="carousel-title" id="movies">Movies</h4>
+    <div id="carouselExampleCaptions1" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="d-block w-100">
+
+
+
+            <div class="whos-watching" align="center">
+              <div class="watching" align="center">
+                <a href="movie.html"><img class="puppet" src="https://m.media-amazon.com/images/M/MV5BZjNiMzJkZDMtZDg4NC00YjQyLTg2ZGQtOGVjNDdjZGQyZWU4XkEyXkFqcGdeQXVyMjQ0NDQxNDA@._V1_UY1200_CR165,0,630,1200_AL_.jpg"></a>
+
+              </div>
+              <div class="watching" align="center">
+                <a href="movie.html"><img class="puppet" src="https://m.media-amazon.com/images/M/MV5BNWNlYzA2OWUtMWE1Mi00ZjMyLWExY2ItZDVlZmQ0YTMyZmEyXkEyXkFqcGdeQXVyMjYwNDA2MDE@._V1_UY1200_CR94,0,630,1200_AL_.jpg"></a>
+
+              </div>
+              <div class="watching" align="center">
+                <a href="movie.html"><img class="puppet" src="https://i.pinimg.com/originals/44/03/03/440303bf07fbe1d87cc461bf4e0ef3c1.jpg"></a>
+
+              </div>
+              <div class="watching" align="center">
+                <a href="movie.html"><img class="puppet" src="https://m.media-amazon.com/images/M/MV5BN2Q3OWQ1Y2UtN2E3OS00ODA2LWE1Y2EtYmY5OWMzNWYzMDZmXkEyXkFqcGdeQXVyMzY0MTE3NzU@._V1_.jpg"></a>
+
+              </div>
+              <div class="watching" align="center">
+                <a href="movie.html"><img class="puppet" src="https://upload.wikimedia.org/wikipedia/en/9/93/Bloodline_TV_Series_Poster.jpg"></a>
+
+              </div>
+              <div class="watching" align="center">
+                <a href="movie.html"><img class="puppet" src="https://cdn.seat42f.com/wp-content/uploads/2018/03/06202418/Lost-In-Space-Season-1-Poster-Key-Art.jpg"></a>
+
+              </div>
+              <div class="watching" align="center">
+                <a href="movie.html"><img class="puppet" src="https://resizing.flixster.com/HEohrSWZNRsxtvvMhIsXkS-ai2U=/1500x2227/v1.dDs2NDYyNjU7ajsxODU0NzsxMjAwOzE1MDA7MjIyNw"></a>
+
+              </div>
+              <div class="watching" align="center">
+                <a href="movie.html"><img class="puppet" src="https://i.pinimg.com/originals/2e/41/57/2e41579b3cceb8be4df3e3a643cf15a6.png"></a>
+
+              </div>
+              <div class="watching" align="center">
+                <a href="movie.html"><img class="puppet" src="https://vignette.wikia.nocookie.net/dark-netflix/images/a/a8/Dark_US_Poster.jpg/revision/latest?cb=20171113104852"></a>
+
+              </div>
+              <div class="watching" align="center">
+                <a href="movie.html"><img class="puppet" src="https://upload.wikimedia.org/wikipedia/en/thumb/b/b1/Stranger_Things_season_1.jpg/220px-Stranger_Things_season_1.jpg"></a>
+
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="d-block w-100">
+
+
+
+            <div class="whos-watching" align="center">
+              <div class="watching" align="center">
+                <a href="movie.html"><img class="puppet" src="https://cdn.collider.com/wp-content/uploads/2018/12/a-series-of-unfortunate-events-season-3-poster.jpg"></a>
+
+              </div>
+              <div class="watching" align="center">
+                <a href="movie.html"><img class="puppet" src="https://m.media-amazon.com/images/M/MV5BNzY1YjIxOGMtOTAyZC00YTcyLWFhMzQtZTJkYTljYzU0MGRlXkEyXkFqcGdeQXVyMTAwMzM3NDI3._V1_UY1200_CR93,0,630,1200_AL_.jpg"></a>
+
+              </div>
+              <div class="watching" align="center">
+                <a href="movie.html"><img class="puppet" src="https://miro.medium.com/max/713/1*WROpRql0lPrO759KAcVs2g.jpeg"></a>
+
+              </div>
+              <div class="watching" align="center">
+                <a href="movie.html"><img class="puppet" src="https://assets.gopaisa.com/unsafe/0x0/https://gpcdn.ams3.cdn.digitaloceanspaces.com/deals/guilty-netflix-fim.jpg"></a>
+
+              </div>
+              <div class="watching" align="center">
+                <a href="movie.html"><img class="puppet" src="https://i.pinimg.com/736x/e9/d4/0f/e9d40f4b6057015f29ede2d136979065.jpg"></a>
+
+              </div>
+              <div class="watching" align="center">
+                <a href="movie.html"><img class="puppet" src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1580830197-41olxAAePgL.jpg?crop=1xw:1xh;center,top&resize=320%3A%2A"></a>
+
+              </div>
+              <div class="watching" align="center">
+                <a href="movie.html"><img class="puppet" src="https://upload.wikimedia.org/wikipedia/en/5/5b/The_Outsider.png"></a>
+
+              </div>
+              <div class="watching" align="center">
+                <a href="movie.html"><img class="puppet" src="https://img.reelgood.com/content/show/c17cdd44-3ef4-424c-a6f6-e217d7d24569/poster-780.jpg"></a>
+
+              </div>
+              <div class="watching" align="center">
+                <a href="movie.html"><img class="puppet" src="https://i1.netflixmovies.com/dibsl9ebc/image/upload/w_600,h_891,c_lfill,g_north/bdwve39qmoh76qfc7oed.jpg"></a>
+
+              </div>
+              <div class="watching" align="center">
+                <a href="movie.html"><img class="puppet" src="https://rukminim1.flixcart.com/image/352/352/jnamvm80/poster/f/e/8/medium-stranger-things-season-1-poster-a4-strangerthingsa4-original-imaf9znhqxw7sh5m.jpeg?q=70"></a>
+
+              </div>
+            </div>
+
+
+
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev buttons-bottom" href="#carouselExampleCaptions1" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next  buttons-bottom" href="#carouselExampleCaptions1" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+
+
+
+<!-- shows carousel -->
+
+
+<h4 class="carousel-title" id="shows">Shows</h4>
+<div id="carouselExampleCaptions2" class="carousel slide" data-ride="false">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="d-block w-100">
+
+
+
+        <div class="whos-watching" align="center">
+          <div class="watching" align="center">
+            <a href="movie.html"><img class="puppet" src="https://cdn.collider.com/wp-content/uploads/2018/12/a-series-of-unfortunate-events-season-3-poster.jpg"></a>
+
+          </div>
+          <div class="watching" align="center">
+            <a href="movie.html"><img class="puppet" src="https://m.media-amazon.com/images/M/MV5BNzY1YjIxOGMtOTAyZC00YTcyLWFhMzQtZTJkYTljYzU0MGRlXkEyXkFqcGdeQXVyMTAwMzM3NDI3._V1_UY1200_CR93,0,630,1200_AL_.jpg"></a>
+
+          </div>
+          <div class="watching" align="center">
+            <a href="movie.html"><img class="puppet" src="https://miro.medium.com/max/713/1*WROpRql0lPrO759KAcVs2g.jpeg"></a>
+
+          </div>
+          <div class="watching" align="center">
+            <a href="movie.html"><img class="puppet" src="https://assets.gopaisa.com/unsafe/0x0/https://gpcdn.ams3.cdn.digitaloceanspaces.com/deals/guilty-netflix-fim.jpg"></a>
+
+          </div>
+          <div class="watching" align="center">
+            <a href="movie.html"><img class="puppet" src="https://i.pinimg.com/736x/e9/d4/0f/e9d40f4b6057015f29ede2d136979065.jpg"></a>
+
+          </div>
+          <div class="watching" align="center">
+            <a href="movie.html"><img class="puppet" src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1580830197-41olxAAePgL.jpg?crop=1xw:1xh;center,top&resize=320%3A%2A"></a>
+
+          </div>
+          <div class="watching" align="center">
+            <a href="movie.html"><img class="puppet" src="https://upload.wikimedia.org/wikipedia/en/5/5b/The_Outsider.png"></a>
+
+          </div>
+          <div class="watching" align="center">
+            <a href="movie.html"><img class="puppet" src="https://img.reelgood.com/content/show/c17cdd44-3ef4-424c-a6f6-e217d7d24569/poster-780.jpg"></a>
+
+          </div>
+          <div class="watching" align="center">
+            <a href="movie.html"><img class="puppet" src="https://i1.netflixmovies.com/dibsl9ebc/image/upload/w_600,h_891,c_lfill,g_north/bdwve39qmoh76qfc7oed.jpg"></a>
+
+          </div>
+          <div class="watching" align="center">
+            <a href="movie.html"><img class="puppet" src="https://rukminim1.flixcart.com/image/352/352/jnamvm80/poster/f/e/8/medium-stranger-things-season-1-poster-a4-strangerthingsa4-original-imaf9znhqxw7sh5m.jpeg?q=70"></a>
+
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="d-block w-100">
+
+
+
+        <div class="whos-watching" align="center">
+          <div class="watching" align="center">
+            <a href="movie.html"><img class="puppet" src="https://m.media-amazon.com/images/M/MV5BZjNiMzJkZDMtZDg4NC00YjQyLTg2ZGQtOGVjNDdjZGQyZWU4XkEyXkFqcGdeQXVyMjQ0NDQxNDA@._V1_UY1200_CR165,0,630,1200_AL_.jpg"></a>
+
+          </div>
+          <div class="watching" align="center">
+            <a href="movie.html"><img class="puppet" src="https://m.media-amazon.com/images/M/MV5BNWNlYzA2OWUtMWE1Mi00ZjMyLWExY2ItZDVlZmQ0YTMyZmEyXkEyXkFqcGdeQXVyMjYwNDA2MDE@._V1_UY1200_CR94,0,630,1200_AL_.jpg"></a>
+
+          </div>
+          <div class="watching" align="center">
+            <a href="movie.html"><img class="puppet" src="https://i.pinimg.com/originals/44/03/03/440303bf07fbe1d87cc461bf4e0ef3c1.jpg"></a>
+
+          </div>
+          <div class="watching" align="center">
+            <a href="movie.html"><img class="puppet" src="https://m.media-amazon.com/images/M/MV5BN2Q3OWQ1Y2UtN2E3OS00ODA2LWE1Y2EtYmY5OWMzNWYzMDZmXkEyXkFqcGdeQXVyMzY0MTE3NzU@._V1_.jpg"></a>
+
+          </div>
+          <div class="watching" align="center">
+            <a href="movie.html"><img class="puppet" src="https://upload.wikimedia.org/wikipedia/en/9/93/Bloodline_TV_Series_Poster.jpg"></a>
+
+          </div>
+          <div class="watching" align="center">
+            <a href="movie.html"><img class="puppet" src="https://cdn.seat42f.com/wp-content/uploads/2018/03/06202418/Lost-In-Space-Season-1-Poster-Key-Art.jpg"></a>
+
+          </div>
+          <div class="watching" align="center">
+            <a href="movie.html"><img class="puppet" src="https://resizing.flixster.com/HEohrSWZNRsxtvvMhIsXkS-ai2U=/1500x2227/v1.dDs2NDYyNjU7ajsxODU0NzsxMjAwOzE1MDA7MjIyNw"></a>
+
+          </div>
+          <div class="watching" align="center">
+            <a href="movie.html"><img class="puppet" src="https://i.pinimg.com/originals/2e/41/57/2e41579b3cceb8be4df3e3a643cf15a6.png"></a>
+
+          </div>
+          <div class="watching" align="center">
+            <a href="movie.html"><img class="puppet" src="https://vignette.wikia.nocookie.net/dark-netflix/images/a/a8/Dark_US_Poster.jpg/revision/latest?cb=20171113104852"></a>
+
+          </div>
+          <div class="watching" align="center">
+            <a href="movie.html"><img class="puppet" src="https://upload.wikimedia.org/wikipedia/en/thumb/b/b1/Stranger_Things_season_1.jpg/220px-Stranger_Things_season_1.jpg"></a>
+
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev buttons-bottom" href="#carouselExampleCaptions2" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next  buttons-bottom" href="#carouselExampleCaptions2" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+
+
+
+<!-- originals carousel -->
+
+
+
+<h4 class="carousel-title" id="originals">Originals</h4>
+<div id="carouselExampleCaptions3" class="carousel slide" data-ride="false">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="d-block w-100">
+
+
+
+        <div class="whos-watching" align="center">
+          <div class="watching" align="center">
+            <a href="movie.html"><img class="puppet" src="https://m.media-amazon.com/images/M/MV5BZjNiMzJkZDMtZDg4NC00YjQyLTg2ZGQtOGVjNDdjZGQyZWU4XkEyXkFqcGdeQXVyMjQ0NDQxNDA@._V1_UY1200_CR165,0,630,1200_AL_.jpg"></a>
+
+          </div>
+          <div class="watching" align="center">
+            <a href="movie.html"><img class="puppet" src="https://m.media-amazon.com/images/M/MV5BNWNlYzA2OWUtMWE1Mi00ZjMyLWExY2ItZDVlZmQ0YTMyZmEyXkEyXkFqcGdeQXVyMjYwNDA2MDE@._V1_UY1200_CR94,0,630,1200_AL_.jpg"></a>
+
+          </div>
+          <div class="watching" align="center">
+            <a href="movie.html"><img class="puppet" src="https://i.pinimg.com/originals/44/03/03/440303bf07fbe1d87cc461bf4e0ef3c1.jpg"></a>
+
+          </div>
+          <div class="watching" align="center">
+            <a href="movie.html"><img class="puppet" src="https://m.media-amazon.com/images/M/MV5BN2Q3OWQ1Y2UtN2E3OS00ODA2LWE1Y2EtYmY5OWMzNWYzMDZmXkEyXkFqcGdeQXVyMzY0MTE3NzU@._V1_.jpg"></a>
+
+          </div>
+          <div class="watching" align="center">
+            <a href="movie.html"><img class="puppet" src="https://upload.wikimedia.org/wikipedia/en/9/93/Bloodline_TV_Series_Poster.jpg"></a>
+
+          </div>
+          <div class="watching" align="center">
+            <a href="movie.html"><img class="puppet" src="https://cdn.seat42f.com/wp-content/uploads/2018/03/06202418/Lost-In-Space-Season-1-Poster-Key-Art.jpg"></a>
+
+          </div>
+          <div class="watching" align="center">
+            <a href="movie.html"><img class="puppet" src="https://resizing.flixster.com/HEohrSWZNRsxtvvMhIsXkS-ai2U=/1500x2227/v1.dDs2NDYyNjU7ajsxODU0NzsxMjAwOzE1MDA7MjIyNw"></a>
+
+          </div>
+          <div class="watching" align="center">
+            <a href="movie.html"><img class="puppet" src="https://i.pinimg.com/originals/2e/41/57/2e41579b3cceb8be4df3e3a643cf15a6.png"></a>
+
+          </div>
+          <div class="watching" align="center">
+            <a href="movie.html"><img class="puppet" src="https://vignette.wikia.nocookie.net/dark-netflix/images/a/a8/Dark_US_Poster.jpg/revision/latest?cb=20171113104852"></a>
+
+          </div>
+          <div class="watching" align="center">
+            <a href="movie.html"><img class="puppet" src="https://upload.wikimedia.org/wikipedia/en/thumb/b/b1/Stranger_Things_season_1.jpg/220px-Stranger_Things_season_1.jpg"></a>
+
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="d-block w-100">
+
+
+
+        <div class="whos-watching" align="center">
+          <div class="watching" align="center">
+            <a href="movie.html"><img class="puppet" src="https://cdn.collider.com/wp-content/uploads/2018/12/a-series-of-unfortunate-events-season-3-poster.jpg"></a>
+
+          </div>
+          <div class="watching" align="center">
+            <a href="movie.html"><img class="puppet" src="https://m.media-amazon.com/images/M/MV5BNzY1YjIxOGMtOTAyZC00YTcyLWFhMzQtZTJkYTljYzU0MGRlXkEyXkFqcGdeQXVyMTAwMzM3NDI3._V1_UY1200_CR93,0,630,1200_AL_.jpg"></a>
+
+          </div>
+          <div class="watching" align="center">
+            <a href="movie.html"><img class="puppet" src="https://miro.medium.com/max/713/1*WROpRql0lPrO759KAcVs2g.jpeg"></a>
+
+          </div>
+          <div class="watching" align="center">
+            <a href="movie.html"><img class="puppet" src="https://assets.gopaisa.com/unsafe/0x0/https://gpcdn.ams3.cdn.digitaloceanspaces.com/deals/guilty-netflix-fim.jpg"></a>
+
+          </div>
+          <div class="watching" align="center">
+            <a href="movie.html"><img class="puppet" src="https://i.pinimg.com/736x/e9/d4/0f/e9d40f4b6057015f29ede2d136979065.jpg"></a>
+
+          </div>
+          <div class="watching" align="center">
+            <a href="movie.html"><img class="puppet" src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1580830197-41olxAAePgL.jpg?crop=1xw:1xh;center,top&resize=320%3A%2A"></a>
+
+          </div>
+          <div class="watching" align="center">
+            <a href="movie.html"><img class="puppet" src="https://upload.wikimedia.org/wikipedia/en/5/5b/The_Outsider.png"></a>
+
+          </div>
+          <div class="watching" align="center">
+            <a href="movie.html"><img class="puppet" src="https://img.reelgood.com/content/show/c17cdd44-3ef4-424c-a6f6-e217d7d24569/poster-780.jpg"></a>
+
+          </div>
+          <div class="watching" align="center">
+            <a href="movie.html"><img class="puppet" src="https://i1.netflixmovies.com/dibsl9ebc/image/upload/w_600,h_891,c_lfill,g_north/bdwve39qmoh76qfc7oed.jpg"></a>
+
+          </div>
+          <div class="watching" align="center">
+            <a href="movie.html"><img class="puppet" src="https://rukminim1.flixcart.com/image/352/352/jnamvm80/poster/f/e/8/medium-stranger-things-season-1-poster-a4-strangerthingsa4-original-imaf9znhqxw7sh5m.jpeg?q=70"></a>
+
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev buttons-bottom" href="#carouselExampleCaptions3" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next  buttons-bottom" href="#carouselExampleCaptions3" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+<hr class="horizonntal" />
+
+
+<!-- footer -->
+
+
+<table>
+  <tr>
+    <td>
+      <p>
+        All Rights Reserved
+      </p>
+      <p>
+        somebody must have reserved them right..!!
+      </p>
+    </td>
+    <td>
+      <p align="right">
+        <a href="finalPage.html">Contact Developer</a> | <a href="finalPage.html">Settings</a> | <a href="finalPage.html">Logout</a>
+      </p>
+    </td>
+  </tr>
+</table>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>
